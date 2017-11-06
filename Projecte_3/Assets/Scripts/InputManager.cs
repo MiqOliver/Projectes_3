@@ -2,15 +2,9 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class InputManager : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public class InputManager {
+   public static bool Jump()
+    {
+        return Input.GetKeyDown(KeyCode.Space);
+    }
 }
